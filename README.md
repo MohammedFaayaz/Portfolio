@@ -1,12 +1,53 @@
-# React + Vite
+# ⚡ Stark's Dev Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my developer portfolio! This React-based portfolio showcases my journey, skills, projects, and achievements in the world of technology. Built with 💙 **React**, ⚡ **Framer Motion**, and ✨ **Tailwind CSS**, it’s designed for both **light** and **dark** modes.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Website
+
+🌐 [View Live](https://your-portfolio-url.com)
+
+---
+
+## 📁 Features
+
+- 🌓 **Dark/Light Theme Toggle**
+- 🧩 Smooth scroll navigation to each section
+- 💥 Framer Motion animations for transitions
+- 📱 Fully responsive on all devices
+- 🛠️ Projects carousel with auto and manual scroll
+- 🧠 Achievements section for recognitions
+- 📬 Contact form section
+- 🔗 Footer with social links
+
+---
+
+## 🔨 Built With
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## 📦 Folder Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Achievements.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   └── Preloader.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
