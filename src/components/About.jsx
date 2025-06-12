@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
+import profile3D from "../assets/profile3D.png";
 
 export default function About({ darkMode }) {
   const textColor = darkMode ? "text-white" : "text-black";
@@ -23,7 +24,7 @@ export default function About({ darkMode }) {
           viewport={{ once: true }}
         >
           <img
-            src="/assets/profile3D.png"
+            src={profile3D}
             alt="Mohammed Fayaz Avatar"
             className="w-52 h-52 md:w-72 md:h-72 object-cover rounded-full border-4 shadow-lg"
           />
@@ -46,8 +47,31 @@ export default function About({ darkMode }) {
             My true love lies in crafting beautiful, responsive, and futuristic websites — especially with <strong>React</strong> and single-page architectures.
           </p>
 
+          <p className={`leading-relaxed ${subText}`}>
+            I've had the privilege of being recognized with several awards, including the <strong>First Prize in a National Hackathon</strong> and <strong>Student's Choice Award</strong> for innovative product design.
+            Beyond coding, I enjoy mentoring peers, demoing tools like Flask, and constantly exploring new technologies through self-driven mini-projects.
+            I believe in learning by doing — whether it’s building real-time dashboards, contributing to open source, or presenting research on AI-based predictions.
+          </p>
+
+      
+
+          <h3 className="text-xl font-semibold mt-4">🌱 Personal Values</h3>
+          <p className={`leading-relaxed ${subText}`}>
+            I believe in continuous learning, ethical technology, and the power of community-driven innovation. My goal is not just to code, but to create meaningful change through software.
+          </p>
+
+          <h3 className="text-xl font-semibold mt-4">🌍 Vision</h3>
+          <p className={`leading-relaxed ${subText}`}>
+            To become a tech leader who designs solutions at the intersection of sustainability, inclusion, and automation — while inspiring others to do the same.
+          </p>
+
+          <h3 className="text-xl font-semibold mt-4">💬 Personal Quote</h3>
+          <p className={`italic font-medium ${subText}`}>
+            "Stay consistent, keep coding, and let’s build something epic! 💙"
+          </p>
+
           <div>
-            <h3 className="text-xl font-semibold mt-4">💻 Tech Stack</h3>
+            <h3 className="text-xl font-semibold mt-6">💻 Tech Stack</h3>
             <ul className={`grid grid-cols-2 md:grid-cols-3 gap-2 mt-2 ${subText}`}>
               <li>• Python</li>
               <li>• C</li>
@@ -64,7 +88,7 @@ export default function About({ darkMode }) {
           </div>
 
           <a
-            href="/assets/Stark_Resume.pdf"
+            href="/Fayaz_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-2 mt-6 px-6 py-3 border rounded-full hover:scale-105 transition ${borderColor}`}

@@ -57,17 +57,18 @@ export default function Hero({ darkMode, setDarkMode }) {
             Hire Me
           </motion.a>
 
-          <motion.a
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            href="/assets/Stark_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`px-6 py-3 rounded-full flex items-center gap-2 transition border ${borderColor}`}
-          >
-            <FaDownload />
-            Resume
-          </motion.a>
+              <motion.a
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+      href="/Fayaz_Resume.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`px-6 py-3 rounded-full flex items-center gap-2 transition border ${borderColor}`}
+    >
+      <FaDownload />
+      Resume
+    </motion.a>
+
         </div>
 
         {/* Profile Image */}
