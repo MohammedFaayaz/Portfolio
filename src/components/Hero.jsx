@@ -2,8 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import { FaDownload, FaBolt, FaSun, FaMoon } from "react-icons/fa";
+import { FaDownload, FaBolt } from "react-icons/fa";
 import profile3D from "../assets/profile3D.png";
+import StarfieldBackground from "./StarfieldBackground";
 
 export default function Hero({ darkMode, setDarkMode }) {
   const bgColor = darkMode ? "bg-black" : "bg-white";
@@ -13,9 +14,9 @@ export default function Hero({ darkMode, setDarkMode }) {
   const borderColor = darkMode ? "border-white text-white" : "border-black text-black";
 
   return (
-    <section className={`relative w-full h-screen flex items-center justify-center transition-colors duration-500 ${bgColor} ${textColor}`}>
-      
-     
+    <section className={`relative w-full h-screen flex items-center justify-center overflow-hidden transition-colors duration-500 ${bgColor} ${textColor}`}>
+      <StarfieldBackground />
+      <div className="hero-matrix-overlay" />
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -24,7 +25,7 @@ export default function Hero({ darkMode, setDarkMode }) {
         className="text-center max-w-3xl px-6 z-10"
       >
         <h1 className="text-2xl md:text-4xl font-bold tracking-wide">
-          Hi, I’m <span className="underline decoration-2 underline-offset-4">Mohammed Fayaz </span>
+          Hi, I’m <span className="underline decoration-2 underline-offset-4">Mohammed Fayaz</span>
         </h1>
 
         <p className={`text-xl md:text-2xl mt-4 font-mono ${secondaryText}`}>
@@ -57,21 +58,19 @@ export default function Hero({ darkMode, setDarkMode }) {
             Hire Me
           </motion.a>
 
-              <motion.a
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
-      href="/Fayaz_Resume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`px-6 py-3 rounded-full flex items-center gap-2 transition border ${borderColor}`}
-    >
-      <FaDownload />
-      Resume
-    </motion.a>
-
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            href="/Fayaz_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`px-6 py-3 rounded-full flex items-center gap-2 transition border ${borderColor}`}
+          >
+            <FaDownload />
+            Resume
+          </motion.a>
         </div>
 
-        {/* Profile Image */}
         <div className="mt-12 flex justify-center">
           <motion.img
             src={profile3D}
@@ -82,6 +81,8 @@ export default function Hero({ darkMode, setDarkMode }) {
             className="w-40 md:w-60 rounded-full border-4 shadow-lg"
           />
         </div>
+      
+      
       </motion.div>
     </section>
   );

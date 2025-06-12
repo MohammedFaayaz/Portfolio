@@ -31,6 +31,9 @@ export default function Navbar({ darkMode, setDarkMode }) {
             <button onClick={() => scrollTo("about")} className="hover:text-blue-500 transition">About</button>
           <button onClick={() => scrollTo("projects")} className="hover:text-blue-500 transition">Projects</button>
           <button onClick={() => scrollTo("achievements")} className="hover:text-blue-500 transition">Achievements</button>
+          <button onClick={() => scrollTo("education")} className="hover:text-blue-500 transition">Education</button>
+          <button onClick={() => scrollTo("experience")} className="hover:text-blue-500 transition">Experience</button> 
+          <button onClick={() => scrollTo("services")} className="hover:text-blue-500 transition">Services</button>
           <button onClick={() => scrollTo("contact")} className="hover:text-blue-500 transition">Contact</button>
 
           {/* Theme Toggle */}
@@ -60,6 +63,9 @@ export default function Navbar({ darkMode, setDarkMode }) {
           <button onClick={() => scrollTo("about")} className="block w-full text-left">About</button>
           <button onClick={() => scrollTo("projects")} className="block w-full text-left">Projects</button>
           <button onClick={() => scrollTo("achievements")} className="block w-full text-left">Achievements</button>
+          <button onClick={() => scrollTo("education")} className="block w-full text-left">Education</button>
+          <button onClick={() => scrollTo("experience")} className="block w-full text-left">Experience</button>   
+          <button onClick={() => scrollTo("services")} className="block w-full text-left">Services</button>
           <button onClick={() => scrollTo("contact")} className="block w-full text-left">Contact</button>
         </div>
       )}

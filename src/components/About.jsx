@@ -3,6 +3,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 import profile3D from "../assets/profile3D.png";
+import { FaCode, FaLaptopCode, FaServer, FaDatabase, FaTools, FaGithub } from "react-icons/fa";
+import { BsDot } from "react-icons/bs";
+import StarfieldBackground from "./StarfieldBackground";
 
 export default function About({ darkMode }) {
   const textColor = darkMode ? "text-white" : "text-black";
@@ -53,8 +56,6 @@ export default function About({ darkMode }) {
             I believe in learning by doing — whether it’s building real-time dashboards, contributing to open source, or presenting research on AI-based predictions.
           </p>
 
-      
-
           <h3 className="text-xl font-semibold mt-4">🌱 Personal Values</h3>
           <p className={`leading-relaxed ${subText}`}>
             I believe in continuous learning, ethical technology, and the power of community-driven innovation. My goal is not just to code, but to create meaningful change through software.
@@ -69,24 +70,77 @@ export default function About({ darkMode }) {
           <p className={`italic font-medium ${subText}`}>
             "Stay consistent, keep coding, and let’s build something epic! 💙"
           </p>
+{/* TECH STACK */}
+{/* TECH STACK */}
+<div>
+  <h3 className="text-2xl font-bold mt-6 mb-4">💻 Tech Stack</h3>
 
-          <div>
-            <h3 className="text-xl font-semibold mt-6">💻 Tech Stack</h3>
-            <ul className={`grid grid-cols-2 md:grid-cols-3 gap-2 mt-2 ${subText}`}>
-              <li>• Python</li>
-              <li>• C</li>
-              <li>• Java</li>
-              <li>• HTML, CSS, JavaScript</li>
-              <li>• React</li>
-              <li>• Node.js</li>
-              <li>• Express.js</li>
-              <li>• Firebase</li>
-              <li>• MongoDB</li>
-              <li>• MySQL</li>
-              <li>• VS Code</li>
-            </ul>
-          </div>
+  <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ${subText}`}>
+    {/* Programming Languages */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaCode /> Programming Languages</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> Python</li>
+        <li className="flex items-center gap-1"><BsDot /> C</li>
+        <li className="flex items-center gap-1"><BsDot /> Java</li>
+        <li className="flex items-center gap-1"><BsDot /> JavaScript</li>
+      </ul>
+    </div>
 
+    {/* Frontend */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaLaptopCode /> Frontend Technologies</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> HTML, CSS</li>
+        <li className="flex items-center gap-1"><BsDot /> React</li>
+        <li className="flex items-center gap-1"><BsDot /> Tailwind CSS</li>
+        <li className="flex items-center gap-1"><BsDot /> Bootstrap</li>
+      </ul>
+    </div>
+
+    {/* Backend */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaServer /> Backend & Frameworks</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> Node.js</li>
+        <li className="flex items-center gap-1"><BsDot /> Express.js</li>
+        <li className="flex items-center gap-1"><BsDot /> Flask</li>
+      </ul>
+    </div>
+
+    {/* Databases */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaDatabase /> Databases</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> MySQL</li>
+        <li className="flex items-center gap-1"><BsDot /> MongoDB</li>
+        <li className="flex items-center gap-1"><BsDot /> Firebase</li>
+      </ul>
+    </div>
+
+    {/* Tools */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaTools /> Development Tools</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> VS Code</li>
+        <li className="flex items-center gap-1"><BsDot /> Postman</li>
+        <li className="flex items-center gap-1"><BsDot /> Thunder Client</li>
+      </ul>
+    </div>
+
+    {/* Version Control */}
+    <div>
+      <h4 className="text-lg font-semibold flex items-center gap-2 mb-2"><FaGithub /> Version Control & Deployment</h4>
+      <ul className="ml-2">
+        <li className="flex items-center gap-1"><BsDot /> Git & GitHub</li>
+        <li className="flex items-center gap-1"><BsDot /> Netlify</li>
+        <li className="flex items-center gap-1"><BsDot /> Vercel</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+          {/* RESUME LINK */}
           <a
             href="/Fayaz_Resume.pdf"
             target="_blank"

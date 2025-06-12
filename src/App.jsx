@@ -8,6 +8,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import  Service from "./components/Service";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -41,6 +44,15 @@ export default function App() {
           </div>
           <div id="achievements">
             <Achievements darkMode={darkMode} setDarkMode={setDarkMode} />
+          </div>
+          <div id="education">
+            <Education darkMode={darkMode} setDarkMode={setDarkMode} />
+          </div>
+           <div id="experience">
+            <Experience darkMode={darkMode} setDarkMode={setDarkMode} />
+          </div>
+          <div id="services">
+            <Service darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
           <div id="contact">
             <Contact darkMode={darkMode} setDarkMode={setDarkMode} />
