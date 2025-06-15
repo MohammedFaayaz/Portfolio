@@ -7,6 +7,7 @@ import { FaCode, FaLaptopCode, FaServer, FaDatabase, FaTools, FaGithub } from "r
 import { BsDot } from "react-icons/bs";
 import StarfieldBackground from "./StarfieldBackground";
 
+
 export default function About({ darkMode }) {
   const textColor = darkMode ? "text-white" : "text-black";
   const subText = darkMode ? "text-gray-300" : "text-gray-700";
@@ -142,7 +143,7 @@ export default function About({ darkMode }) {
 
           {/* RESUME LINK */}
           <a
-            href="/Fayaz_Resume.pdf"
+            href="/Mohammed Fayaz Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-2 mt-6 px-6 py-3 border rounded-full hover:scale-105 transition ${borderColor}`}

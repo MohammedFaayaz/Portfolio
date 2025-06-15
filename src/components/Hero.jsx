@@ -61,7 +61,7 @@ export default function Hero({ darkMode, setDarkMode }) {
           <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="/Fayaz_Resume.pdf"
+            href="/Mohammed Fayaz Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`px-6 py-3 rounded-full flex items-center gap-2 transition border ${borderColor}`}
