@@ -7,21 +7,28 @@ const projectData = [
   {
     title: "Nisha Fashion",
     desc: "My first frontend project using HTML, CSS, and JavaScript. A simple fashion website.",
-    link: "https://github.com",
+    link: "https://github.com/MohammedFaayaz/Nishafashion_website",
     type: "Frontend",
   },
   {
     title: "Alumni Networking Portal",
     desc: "Bootstrap + JS portal for alumni connection, admin panel, events, and mentorship.",
-    link: "https://lnkd.in/gtjP6Q8B",
+    link: "https://github.com/MohammedFaayaz/Alumni_Networking",
     type: "Frontend",
   },
   {
     title: "SHEcosystem",
     desc: "Hackathon project to empower women through mentorship and funding access.",
-    link: "https://lnkd.in/g7nCVehB",
+    link: "https://github.com/MohammedFaayaz/SHEcosystem",
     type: "Frontend",
   },
+{
+  title: "MERNPad",
+  desc: "A backend-focused MERN project for note-making, built as part of a study project to strengthen skills in API development, and MongoDB integration.",
+  link: "https://github.com/MohammedFaayaz/MERNPad",
+  type: "Backend",
+},
+
   {
     title: "Soil Texture Analysis",
     desc: "IoT + ML based analysis using sensors and OpenCV for smart agriculture.",
@@ -37,7 +44,7 @@ const projectData = [
   {
     title: "Learn-a-Thon Project",
     desc: "Full-fledged React site built after Learn-a-Thon. Reusable components & hooks.",
-    link: "https://lnkd.in/gUVt9TDY",
+    link: "https://github.com/MohammedFaayaz/Learn-a-thon",
     type: "Frontend",
   },
   {
