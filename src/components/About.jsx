@@ -143,7 +143,7 @@ export default function About({ darkMode }) {
 
           {/* RESUME LINK */}
           <a
-            href="/Mohammed_Fayaz_Resume.pdf"
+            href="/Fayaz_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-2 mt-6 px-6 py-3 border rounded-full hover:scale-105 transition ${borderColor}`}
