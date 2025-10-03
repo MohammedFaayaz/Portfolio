@@ -24,7 +24,7 @@ export default function Education({ darkMode }) {
       title: "Bachelor's in Computer Science & Engineering",
       institution: "Thiagarajar College of Engineering",
       year: "2023 – 2027 (Present)",
-      result: "CGPA: 8.40*",
+      result: "CGPA: 8.49*",
     },
   ];
 

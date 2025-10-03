@@ -22,13 +22,14 @@ const projectData = [
     link: "https://github.com/MohammedFaayaz/SHEcosystem",
     type: "Frontend",
   },
+  { title: "MERNPad", desc: "A backend-focused MERN project for note-making, built as part of a study project to strengthen skills in API development, and MongoDB integration.", link: "https://github.com/MohammedFaayaz/MERNPad", type: "Backend", },
 {
-  title: "MERNPad",
-  desc: "A backend-focused MERN project for note-making, built as part of a study project to strengthen skills in API development, and MongoDB integration.",
-  link: "https://github.com/MohammedFaayaz/MERNPad",
-  type: "Backend",
+  title: "ArcChat",
+  desc: "A real-time chat application built with the MERN stack  and Socket.IO.",
+  link: "https://github.com/MohammedFaayaz/ArcChat",
+  type: "Backend"
 },
-
+  
   {
     title: "Soil Texture Analysis",
     desc: "IoT + ML based analysis using sensors and OpenCV for smart agriculture.",
